@@ -1,0 +1,15 @@
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\Bandersnatch.json
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\BandersnatchParse.exe.config
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\BandersnatchParse.exe
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\BandersnatchParse.pdb
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\Newtonsoft.Json.dll
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\Newtonsoft.Json.pdb
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\bin\Debug\Newtonsoft.Json.xml
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.csprojAssemblyReference.cache
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.Properties.Resources.resources
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.csproj.GenerateResource.cache
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.csproj.CoreCompileInputs.cache
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.csproj.CopyComplete
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.exe
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.pdb
+c:\users\kevin\source\repos\BandersnatchParse\BandersnatchParse\obj\Debug\BandersnatchParse.Form1.resources
