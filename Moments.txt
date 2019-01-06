@@ -1,0 +1,2144 @@
+0cr1 { 
+
+} 
+
+0cr2 { 
+
+} 
+
+0Cr4 { 
+
+} 
+
+1A "Which Cereal?" { 
+  p_sp: true,
+  p_tt: true,
+  p_8a: false,
+  p_td: true,
+  p_cs: false,
+  p_w1: false,
+  p_2b: false,
+  p_3j: false,
+  p_pt: false,
+  p_cd: false,
+  p_cj: false,
+  p_sj: false,
+  p_sj2: false,
+  p_tud: false,
+  p_lsd: false,
+  p_vh: false,
+  p_3l: false,
+  p_3s: false,
+  p_3z: false,
+  p_ps: n,
+  p_wb: false,
+  p_kd: false,
+  p_bo: false,
+  p_5v: false,
+  p_pc: n,
+  p_sc: false,
+  p_ty: false,
+  p_cm: false,
+  p_pr: false,
+  p_3ad: false,
+  p_s3af: false,
+  p_nf: false,
+  p_np: false,
+  p_ne: false,
+  p_pp: false,
+  p_tp: false,
+  p_bup: false,
+  p_be: false,
+  p_pe: false,
+  p_pae: false,
+  p_te: false,
+  p_snt: false,
+  p_8j: false,
+  p_8d: false,
+  p_8m: false,
+  p_8q: false,
+  p_8s: false,
+  p_8v: false,
+  p_vs: n,
+  p_scs: false,
+  p_3ab: false,
+  p_3ac: false,
+  p_3aj: false,
+  p_3ah: false,
+  p_3ak: false,
+  p_3al: false,
+  p_3af: false,
+  p_5h: false,
+  p_5ac: false,
+  p_5ag: false,
+  p_5ad: false,
+  p_6c: false
+
+  SUGAR PUFFS: 1E
+  FROSTIES: 1D
+
+} 
+
+1D "Which Tape?" { 
+  p_sp: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sp: False: 
+
+  THOMPSON TWINS: 1H
+  NOW 2: 1G
+
+} 
+
+1E "Which Tape?" { 
+  p_sp: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sp: True: 
+
+  THOMPSON TWINS: 1H
+  NOW 2: 1G
+
+} 
+
+1G "Job Offer" { 
+  p_tt: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tt: False: 
+
+  ACCEPT: /8AChoice/
+  REFUSE: /1Qnw-1Qtt/
+
+} 
+
+1GA "Job Offer Redux" { 
+  ACCEPT: /8AChoice/
+  REFUSE: /1Q_rewatch/
+
+} 
+
+1GB "Job Offer Redux" { 
+  ACCEPT: /8AChoice/
+  REFUSE: /1Q_rewatch/
+
+} 
+
+1H "Job Offer" { 
+  p_tt: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tt: True: 
+
+  ACCEPT: /8AChoice/
+  REFUSE: /1Qnw-1Qtt/
+
+} 
+
+1HA "Job Offer Redux" { 
+  ACCEPT: /8AChoice/
+  REFUSE: /1Q_rewatch/
+
+} 
+
+1HB "Job Offer Redux" { 
+  ACCEPT: /8AChoice/
+  REFUSE: /1Q_rewatch/
+
+} 
+
+1PA "Job Offer Redux" { 
+  ACCEPT: /8AChoice/
+  REFUSE: /1Q_rewatch/
+
+} 
+
+1QA "Throw Tea or Shout?" { 
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+1Qnw "Talk About Mum?" { 
+  p_w1: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_w1: True: 
+
+  YES: /2BChoice/
+  NO: 2GA
+
+} 
+
+1Qtt "Talk About Mum?" { 
+  p_w1: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_w1: True: 
+
+  YES: /2BChoice/
+  NO: 2GA
+
+} 
+
+1R "Throw Tea or Shout?" { 
+  p_td: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_td: True: 
+
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+1S "Throw Tea or Shout?" { 
+  p_td: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_td: False: 
+
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+2B "Which Record?" { 
+  p_2b: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_2b: True: 
+
+  PHAEDRA: 1R
+  THE BERMUDA TRIANGLE: 1S
+
+} 
+
+2Bp1 "Throw Tea or Shout?" { 
+  p_2b: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_2b: True: 
+
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+2Bp2 { 
+  p_2b: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_2b: True: 
+
+
+} 
+
+2Bt1 "Throw Tea or Shout?" { 
+  p_2b: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_2b: True: 
+
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+2Bt2 { 
+  p_2b: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_2b: True: 
+
+
+} 
+
+2G "Which Record?" { 
+  PHAEDRA: 1R
+  THE BERMUDA TRIANGLE: 1S
+
+} 
+
+2GA "Are You Sure?" { 
+  YES: /2BChoice/
+  NO: /2GChoice/
+
+} 
+
+2Gp1 "Throw Tea or Shout?" { 
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+2Gt1 "Throw Tea or Shout?" { 
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+3AB "Fatal Error" { 
+  p_3ab: true,
+  p_cm: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_3ab: True: 
+        eql: 
+          persistentState: p_cm: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AB1 "Who's There?" { 
+  p_cm: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cm: True: 
+
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AB2 "Who's There?" { 
+  p_cm: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cm: True: 
+
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AC "Fatal Error" { 
+  p_3ac: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3ac: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AC1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AC2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AD "Fatal Error" { 
+  p_3ad: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3ad: True: 
+
+  JFD: /JFDChoice/
+  PAX: /PAXChoice/
+
+} 
+
+3AD1 "Enter Code" { 
+  p_3ad: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3ad: True: 
+
+  TOY: 8J
+  PAX: /PAXChoice/
+
+} 
+
+3AD2 "Enter Code" { 
+  p_3ad: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3ad: True: 
+
+  PAX: /PAXChoice/
+  PAC: /PACStudyChoice/
+
+} 
+
+3AD3 "Enter Code" { 
+  p_3ad: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3ad: True: 
+
+  TOY: 8J
+  PAC: /PACStudyChoice/
+
+} 
+
+3AF "Fatal Error" { 
+  p_3af: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3af: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AF1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AF2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AH "Fatal Error" { 
+  p_3ah: true,
+  p_cm: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_3ah: True: 
+        eql: 
+          persistentState: p_cm: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AH1 "Who's There?" { 
+  p_cm: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cm: True: 
+
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AH2 "Who's There?" { 
+  p_cm: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cm: True: 
+
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AJ "Fatal Error" { 
+  p_3aj: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3aj: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AJ1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AJ2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AK "Fatal Error" { 
+  p_3ak: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3ak: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AK1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AK2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AL "Fatal Error" { 
+  p_3al: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3al: True: 
+
+  THROW TEA OVER COMPUTER: /ThrowTeaChoice/
+  DESTROY COMPUTER: /DestroyComputerChoice/
+
+} 
+
+3AL1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3AL2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+3Ax "Throw Tea or Shout?" { 
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+3J "Outside Dr. Haynes" { 
+  p_3j: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3j: True: 
+
+  VISIT DR. HAYNES: /VisitHaynesChoice/
+  FOLLOW COLIN: /FollowColinChoice/
+
+} 
+
+3L "Outside Dr. Haynes" { 
+  p_3l: true,
+  p_scs: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_3l: True: 
+        eql: 
+          persistentState: p_scs: True: 
+
+  VISIT DR. HAYNES: /VisitHaynesChoice/
+  FOLLOW COLIN: /FollowColinChoice/
+
+} 
+
+3M "Take LSD?" { 
+  p_lsd: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_lsd: True: 
+
+  YES: 3N
+  NO: 3P
+
+} 
+
+3N "Who Jumps?" { 
+  STEFAN: 8L
+  COLIN: 3Q
+
+} 
+
+3Nx "Who Jumps?" { 
+  STEFAN: 8L
+  COLIN: 3Q
+
+} 
+
+3P "Who Jumps?" { 
+  STEFAN: 8L
+  COLIN: 3Q
+
+} 
+
+3Q { 
+  p_cj: true,
+  p_cd: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_cj: True: 
+        eql: 
+          persistentState: p_cd: True: 
+
+
+} 
+
+3R "Bite Nails or Pull Ear?" { 
+  p_vh: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_vh: True: 
+
+  BITE NAILS: 3U
+  PULL EARLOBE: 3T
+
+} 
+
+3S { 
+  p_3s: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3s: True: 
+
+
+} 
+
+3VA "Fatal Error" { 
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3VB "Photo or Book?" { 
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+
+3Vbf "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Vbs "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Vff "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Vfs "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Vx "Fatal Error" { 
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Wbf "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Wbs "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Wff "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3Wfs "Fatal Error" { 
+  p_tud: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tud: True: 
+
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+3X "Pills" { 
+  TAKE THEM: 8B
+  FLUSH THEM: /FlushThemChoice3X/
+
+} 
+
+3Xa "Pills" { 
+  TAKE THEM: 8B
+  FLUSH THEM: /FlushThemChoice3X/
+
+} 
+
+3Xac "Pills" { 
+  THROW THEM AWAY: /ThrowThemChoice/
+  FLUSH THEM: /FlushThemChoice3X/
+
+} 
+
+3Xcd "Pills" { 
+  THROW THEM AWAY: /ThrowThemChoice/
+  FLUSH THEM: /FlushThemChoice3X/
+
+} 
+
+3Xxa "Pills" { 
+  TAKE THEM: 8B
+  FLUSH THEM: /FlushThemChoice3X/
+
+} 
+
+3Xxc "Pills" { 
+  THROW THEM AWAY: 8B
+  FLUSH THEM: /FlushThemChoice3X/
+
+} 
+
+3Y { 
+  p_sc: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sc: True: 
+
+
+} 
+
+3Z "Photo or Book?" { 
+  p_3z: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_3z: True: 
+
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+
+4C1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+4C2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+4D1 "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+4D2 "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+5A "Kill Dad?" { 
+  p_wb: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_wb: True: 
+
+  KILL DAD: 5H
+  BACK OFF: 5G
+
+} 
+
+5AC { 
+  p_5ac: true,
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_5ac: True: 
+          eql: 
+            persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+5AC2 { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+5AD "Respond to Kitty" { 
+  p_5ad: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_5ad: True: 
+
+  NO IDEA: 5AF
+  HE JUMPED: 5AE
+
+} 
+
+5AD2 "Respond to Kitty" { 
+  NO IDEA: 5AF
+  HE JUMPED: 5AE
+
+} 
+
+5AE { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+5AF { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+5AG "Kill Colin?" { 
+  p_5ag: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_5ag: True: 
+
+  LET HIM GO: 5AH
+  KILL HIM: 5AJ
+
+} 
+
+5AG2 "Kill Colin?" { 
+  LET HIM GO: 5AH
+  KILL HIM: 5AJ
+
+} 
+
+5AH { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+5AJ { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+5H { 
+  p_kd: true,
+  p_5h: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_kd: True: 
+        eql: 
+          persistentState: p_5h: True: 
+
+
+} 
+
+5Mpc { 
+  p_vs: k
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_vs: k: 
+
+
+} 
+
+5Mtc { 
+  p_vs: k
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_vs: k: 
+
+
+} 
+
+5Q "Tucker Call" { 
+  p_bup: false,
+  p_pc: o
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: False: 
+        eql: 
+          persistentState: p_pc: o: 
+
+  YES: 5U
+  NO: 5T
+
+} 
+
+5QA "Tucker Call" { 
+  p_bup: false,
+  p_pc: o
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: False: 
+        eql: 
+          persistentState: p_pc: o: 
+
+  YES: 5UA
+  NO: 5TA
+
+} 
+
+5R { 
+  p_vs: c,
+  p_bup: false,
+  p_pc: t
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_vs: c: 
+          eql: 
+            persistentState: p_bup: False: 
+        eql: 
+          persistentState: p_pc: t: 
+
+
+} 
+
+5RA { 
+  p_vs: k,
+  p_bup: false,
+  p_pc: t
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_vs: k: 
+          eql: 
+            persistentState: p_bup: False: 
+        eql: 
+          persistentState: p_pc: t: 
+
+
+} 
+
+5S { 
+  p_vs: t,
+  p_bup: false
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_vs: t: 
+        eql: 
+          persistentState: p_bup: False: 
+
+
+} 
+
+5SA { 
+  p_vs: k,
+  p_bup: false
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_vs: k: 
+        eql: 
+          persistentState: p_bup: False: 
+
+
+} 
+
+5V "Bury or Chop?" { 
+  p_5v: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_5v: True: 
+
+  BURY BODY: /5V-0/
+  CHOP UP BODY: /5V-1/
+
+} 
+
+5VA "Bury or Chop?" { 
+  BURY BODY: /5V-0/
+  CHOP UP BODY: /5V-1/
+
+} 
+
+6A "Phone Call" { 
+  p_pr: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_pr: True: 
+
+
+} 
+
+6B "Phone Call" { 
+
+} 
+
+6C { 
+  p_pp: true,
+  p_pae: true,
+  p_bo: false,
+  p_6c: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          and: 
+            eql: 
+              persistentState: p_pp: True: 
+            eql: 
+              persistentState: p_pae: True: 
+          eql: 
+            persistentState: p_bo: False: 
+        eql: 
+          persistentState: p_6c: True: 
+
+
+} 
+
+6D { 
+  p_pp: true,
+  p_pae: true,
+  p_bo: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_pp: True: 
+          eql: 
+            persistentState: p_pae: True: 
+        eql: 
+          persistentState: p_bo: False: 
+
+
+} 
+
+7A "Try To Explain" { 
+  p_nf: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_nf: True: 
+
+  TELL HIM MORE: 7B
+  TRY TO EXPLAIN: 7B
+
+} 
+
+7B "Tell Him More" { 
+  TELL HIM MORE: 7C
+  STOP THE CONVERSATION: 7D
+
+} 
+
+7D "Fight or Run?" { 
+  LEAP THROUGH THE WINDOW: 7L
+  FIGHT HER: 7H
+
+} 
+
+7H "Chop or Kick?" { 
+  KARATE CHOP DAD: 7K
+  KICK HIM IN THE BALLS: 7J
+
+} 
+
+8A { 
+  p_8a: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_8a: True: 
+
+
+} 
+
+8D { 
+  p_8d: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_8d: True: 
+
+
+} 
+
+8J "Go with Mum?" { 
+  p_ty: true,
+  p_te: true,
+  p_3ad: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_ty: True: 
+          eql: 
+            persistentState: p_te: True: 
+        eql: 
+          persistentState: p_3ad: True: 
+
+  YES: 8JA
+  NO: /8J-1/
+
+} 
+
+8JB1 "Who's There?" { 
+  p_tp: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tp: True: 
+
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+8JB2 "Who's There?" { 
+  p_tp: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_tp: True: 
+
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+8K "Fatal Error" { 
+  p_pe: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_pe: True: 
+
+  THROW TEA OVER COMPUTER: /pearlThrowTea/
+  DESTROY COMPUTER: /pearlDestroyComputer/
+
+} 
+
+8M { 
+  p_8m: true,
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_8m: True: 
+          eql: 
+            persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8Ma { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8Q { 
+  p_8q: true,
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_8q: True: 
+          eql: 
+            persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8Qa { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8S { 
+  p_8s: true,
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_8s: True: 
+          eql: 
+            persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8Sa { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8V { 
+  p_8v: true,
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_8v: True: 
+          eql: 
+            persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+8Va { 
+  p_bup: true,
+  p_be: true
+
+  req:
+    not: 
+      and: 
+        eql: 
+          persistentState: p_bup: True: 
+        eql: 
+          persistentState: p_be: True: 
+
+
+} 
+
+R1cd { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+
+} 
+
+R2cd { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+
+} 
+
+R3cd { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+
+} 
+
+R4cd { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+
+} 
+
+R6 { 
+  p_s3af: true
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_s3af: True: 
+
+
+} 
+
+S34A { 
+
+} 
+
+S34B { 
+
+} 
+
+S35A { 
+
+} 
+
+S35B { 
+
+} 
+
+S36A { 
+
+} 
+
+S36B { 
+
+} 
+
+S37A { 
+
+} 
+
+S37B { 
+
+} 
+
+S38A { 
+
+} 
+
+S38B { 
+
+} 
+
+S44A { 
+
+} 
+
+S44B { 
+
+} 
+
+S59A { 
+
+} 
+
+S59B { 
+
+} 
+
+SS1 "Split Screen" { 
+  TALK ABOUT MUM: R3
+  FOLLOW COLIN: R4
+
+} 
+
+SS10 { 
+  GO BACK: 1PA
+
+} 
+
+SS11 "Split Screen" { 
+  p_pt: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_pt: False: 
+
+  WORK AT TUCKERSOFT?: /SS11-0/
+  GO BACK: 3Ax
+
+} 
+
+SS12 "Split Screen" { 
+  p_pt: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_pt: False: 
+
+  TALK ABOUT MUM: R3
+  GO BACK: 3Ax
+
+} 
+
+SS13 { 
+  p_pt: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_pt: False: 
+
+  GO BACK: 3Ax
+
+} 
+
+SS14 "Split Screen" { 
+  p_ps: n
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_ps: n: 
+
+  TALK ABOUT MUM: R3
+  GO BACK: /3Xxa_3Xxc/
+
+} 
+
+SS15 "Split Screen" { 
+  p_ps: n
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_ps: n: 
+
+  FOLLOW COLIN: R4
+  GO BACK: /3Xxa_3Xxc/
+
+} 
+
+SS16 "Split Screen" { 
+  p_sc: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sc: False: 
+
+  TALK ABOUT MUM: R3
+  GO BACK: 3Vx
+
+} 
+
+SS17 "Split Screen" { 
+  p_sc: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sc: False: 
+
+  FOLLOW COLIN: R4
+  GO BACK: 3Vx
+
+} 
+
+SS18 { 
+  p_sc: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sc: False: 
+
+  GO BACK: 3Vx
+
+} 
+
+SS19 "Split Screen" { 
+  p_sj2: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sj2: False: 
+
+  TALK ABOUT MUM: R3
+  GO BACK: 3Nx
+
+} 
+
+SS2 "Split Screen" { 
+  PICK UP PHOTO: R1
+  WHO'S THERE?: /WhoThereChoice/
+
+} 
+
+SS20 "Split Screen" { 
+  p_sj2: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_sj2: False: 
+
+  VISIT DR HAYNES: R5
+  GO BACK: 3Nx
+
+} 
+
+SS21 "Split Screen" { 
+  'PROGRAM & CONTROL': R6
+  KILL DAD: 5H
+
+} 
+
+SS22 "Split Screen" { 
+  WHO'S THERE?: /WhoThereChoice/
+  KILL DAD: 5H
+
+} 
+
+SS3 "Split Screen" { 
+  GET RABBIT FROM DAD: R2
+  WHO'S THERE?: /WhoThereChoice/
+
+} 
+
+SS4 "Split Screen" { 
+  FOLLOW COLIN: R4
+  WHO'S THERE?: /WhoThereChoice/
+
+} 
+
+SS5 { 
+  WHO'S THERE?: /WhoThereChoice/
+
+} 
+
+SS50 { 
+  p_np: false,
+  p_pp: false,
+  p_tp: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_np: False: 
+          eql: 
+            persistentState: p_pp: False: 
+        eql: 
+          persistentState: p_tp: False: 
+
+
+} 
+
+SS51 { 
+  p_np: false,
+  p_pp: false,
+  p_tp: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_np: False: 
+          eql: 
+            persistentState: p_pp: False: 
+        eql: 
+          persistentState: p_tp: False: 
+
+
+} 
+
+SS52 { 
+
+} 
+
+SS53 { 
+
+} 
+
+SS54 { 
+  p_np: false,
+  p_pp: false,
+  p_tp: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_np: False: 
+          eql: 
+            persistentState: p_pp: False: 
+        eql: 
+          persistentState: p_tp: False: 
+
+
+} 
+
+SS55 { 
+  p_np: false,
+  p_pp: false,
+  p_tp: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_np: False: 
+          eql: 
+            persistentState: p_pp: False: 
+        eql: 
+          persistentState: p_tp: False: 
+
+
+} 
+
+SS56 { 
+  p_np: false,
+  p_pp: false,
+  p_tp: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          eql: 
+            persistentState: p_np: False: 
+          eql: 
+            persistentState: p_pp: False: 
+        eql: 
+          persistentState: p_tp: False: 
+
+
+} 
+
+SS57 { 
+  p_np: false,
+  p_pp: false,
+  p_tp: false,
+  p_bup: false
+
+  req:
+    not: 
+      and: 
+        and: 
+          and: 
+            eql: 
+              persistentState: p_np: False: 
+            eql: 
+              persistentState: p_pp: False: 
+          eql: 
+            persistentState: p_tp: False: 
+        eql: 
+          persistentState: p_bup: False: 
+    !((((p_np && p_pp) && p_tp) && p_bup)
+
+
+} 
+
+SS6 "Split Screen" { 
+  TALK ABOUT MUM: R3
+  KILL DAD: 5H
+
+} 
+
+SS7 "Split Screen" { 
+  PICK UP PHOTO: R1
+  KILL DAD: 5H
+
+} 
+
+SS8 "Split Screen" { 
+  GET RABBIT FROM DAD: R2
+  KILL DAD: 5H
+
+} 
+
+SS9 "Split Screen" { 
+  FOLLOW COLIN: R4
+  KILL DAD: 5H
+
+} 
+
+Z1 "Throw Tea or Shout?" { 
+  THROW TEA OVER COMPUTER: 3B
+  SHOUT AT DAD: 3C
+
+} 
+
+Z4 "Fatal Error" { 
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+Z4cd "Fatal Error" { 
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+Z61a "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z61b "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z61c "Who's There?" { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z61d "Who's There?" { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z61e "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z61f "Who's There?" { 
+  PACS: /LettersPACSChoice/
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z62a "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z62b "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z62c "Who's There?" { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z62d "Who's There?" { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z62e "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z62f "Who's There?" { 
+  THE NETFLIX 'N' LOGO: 7A
+  'WHITE BEAR' GLYPH: /WhiteBearChoice/
+
+} 
+
+Z7c { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+
+} 
+
+Z7d { 
+  p_cd: false
+
+  req:
+    not: 
+      eql: 
+        persistentState: p_cd: False: 
+
+
+} 
+
+ZB "Talk About Mum?" { 
+  YES: /2BChoice/
+  NO: 2GA
+
+} 
+
+ZD "Photo or Book?" { 
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+
+ZE "Photo or Book?" { 
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+
+ZG "Who Jumps?" { 
+  STEFAN: 8L
+  COLIN: 3Q
+
+} 
+
+ZH "Fatal Error" { 
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+ZHw6 "Photo or Book?" { 
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+
+ZJ "Photo or Book?" { 
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+
+ZK "Enter Code" { 
+  JFD: /JFDChoice/
+  PAX: /PAXChoice/
+
+} 
+
+ZK1 "Enter Code" { 
+  TOY: 8J
+  PAX: /PAXChoice/
+
+} 
+
+ZK2 "Enter Code" { 
+  PAX: /PAXChoice/
+  PAC: /PACStudyChoice/
+
+} 
+
+ZK3 "Enter Code" { 
+  TOY: 8J
+  PAC: /PACStudyChoice/
+
+} 
+
+ZP "Fatal Error" { 
+  DESTROY COMPUTER: 3Y
+  HIT DESK: 3Z
+
+} 
+
+ZQ "Photo or Book?" { 
+  PICK UP FAMILY PHOTO: /FamilyPhotoChoice/
+  PICK UP BOOK: /BookChoice/
+
+} 
+

@@ -1,0 +1,225 @@
+p_sp: User chose Sugar Puffs
+  1D -> false
+  1E -> true
+p_tt: User chose Thompson Twins
+  1G -> false
+  1H -> true
+p_8a: User accepted job offer
+  8A -> true
+p_td: User chose Phaedra
+  1R -> true
+  1S -> false
+p_cs: 
+p_w1: User rejected job offer
+  1Qnw -> true
+  1Qtt -> true
+p_2b: User talked about mum
+  2B -> true
+  2Bp1 -> true
+  2Bp2 -> true
+  2Bt1 -> true
+  2Bt2 -> true
+p_3j: User has seen scene 3J (Outside Dr. Haynes)
+  3J -> true
+p_pt: 
+  SS11 -> false
+  SS12 -> false
+  SS13 -> false 
+p_cd: 
+  Z61c -> false
+  Z61d -> false
+  Z62c -> false
+  Z62d -> false
+  Z7c -> false
+  Z7d -> false
+p_cj: 
+  3Q -> true
+p_sj: 
+p_sj2:
+  SS19 -> false
+  SS20 -> false
+p_tud:
+  3Vbf -> true
+  3Vbs -> true
+  3Vff -> true
+  3Vfs -> true
+  3Wfs -> true
+  3Wbs -> true
+  3Wff -> true
+  3Wfs -> true
+p_lsd:
+  3M -> true
+p_vh: 
+  3R -> true
+p_3l: 
+  3L -> true
+p_3s: 
+  3S -> true
+p_3z: 
+  3Z -> true
+p_ps: 
+  SS14 -> n
+  SS15 -> n
+p_wb: 
+  5A -> true  
+p_kd: 
+  5H -> true
+p_bo: 
+  6C -> false
+p_5v: 
+  5V -> true
+p_pc: 
+  5Q -> o
+  5QA -> o
+  5R -> t
+  5RA -> t
+p_sc: 
+  SS16 -> false
+  SS17 -> false
+  SS18 -> false
+p_ty: 
+  8J -> true
+p_cm: 
+  3AB -> true
+  3AB1 -> true
+  3AB2 -> true
+  3AH -> true
+  3AH1 -> true
+  3AH2 -> true
+p_pr: 
+  6A -> true 
+p_3ad:
+  3AD -> true
+  3AD1 -> true
+  3AD2 -> true
+  3AD3 -> true
+  8J -> true
+p_s3af: 
+  R6 -> true
+p_nf: 
+  7A -> true
+p_np: 
+  SS50 -> false
+  SS51 -> false
+  SS54 -> false
+  SS55 -> false
+  SS56 -> false
+  SS57 -> false
+p_ne: 
+p_pp: 
+  SS50 -> false
+  SS51 -> false
+  SS54 -> false
+  SS55 -> false
+  SS56 -> false
+  SS57 -> false
+p_tp: 
+  SS50 -> false
+  SS51 -> false
+  SS54 -> false
+  SS55 -> false
+  SS56 -> false
+  SS57 -> false
+p_bup:
+  5AC -> true
+  5AC2 -> true
+  5AE -> true
+  5AF -> true
+  5AH -> true
+  5AJ -> true
+  5Q -> false
+  5QA -> false
+  5R -> false
+  5RA -> false
+  5S -> false
+  5SA -> false
+  8M -> true
+  8Ma -> true
+  8Q -> true
+  8Qa -> true
+  8S -> true
+  8Sa -> true
+  8V -> true
+  8Va -> true
+  SS57 -> false
+p_be: 
+  5AC -> true
+  5AC2 -> true
+  5AE -> true
+  5AF -> true
+  5AH -> true
+  5AJ -> true
+  8M -> true
+  8Ma -> true
+  8Q -> true
+  8Qa -> true
+  8S -> true
+  8Sa -> true
+  8V -> true
+  8Va -> true
+p_pe: 
+  8K -> true
+p_pae:
+  6C -> true
+  6D -> true
+p_te: 
+  8J -> true
+p_snt:
+p_8j: 
+p_8d: 
+  8D -> true
+p_8m: 
+  8M -> true
+p_8q: 
+  8Q -> true
+p_8s: 
+  8S -> true
+p_8v: 
+  8V -> true
+p_vs: 
+  1A -> n
+  5Mpc -> k
+  5Mtc -> k
+  5R -> c
+  5RA -> k
+  5S -> t
+  5SA -> k
+p_scs:
+  1A -> false
+  3L -> true
+p_3ab:
+  1A -> false
+  3AB -> true
+p_3ac:
+  1A -> false
+  3AC -> true
+p_3aj:
+  1A -> false
+  3AJ -> true
+p_3ah:
+  1A -> false
+  3AH -> true
+p_3ak:
+  1A -> false
+  3AK -> true
+p_3al:
+  1A -> false
+  3AL -> true
+p_3af:
+  1A -> false
+  3AF -> true
+p_5h: 
+  1A -> false
+  5H -> true
+p_5ac:
+  1A -> false
+  5AC -> true
+p_5ag:
+  1A -> false
+  5AG -> true
+p_5ad:
+  1A -> false
+  5AD -> true
+p_6c: 
+  1A -> false
+  6C -> true
